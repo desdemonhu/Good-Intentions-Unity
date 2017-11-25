@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Cursor : MonoBehaviour {
     CameraRaycaster cameraRayCaster;
-    Camera viewCamera;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +13,6 @@ public class Cursor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Input.GetMouseButtonDown(0)){
-            print(cameraRayCaster.layerHit);
         }
         
     }
