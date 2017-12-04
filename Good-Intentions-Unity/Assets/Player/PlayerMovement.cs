@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            print("Cursor raycast hit " + cameraRaycaster.layerHit);
             switch (cameraRaycaster.layerHit)
             {
                 case Layer.Walkable:
